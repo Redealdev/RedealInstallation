@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html class="installationhtml" lang="en" dir="ltr">
+<head>
+    <title>installation</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/dd.css">
+    <meta class="foundation-mq">
+</head>
+<body class="inastallation" cz-shortcut-listen="true" data-whatinput="mouse">
+<div class="wrapper">
+    <div class="section-grey-square-flex">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-12 alignslv">
+                    <div class="instbg">
+                        <h2 class="installation text-center">Installation</h2>
+                    </div>
+                    <p>Redeal has one-click integration with a number of e-commerce platforms. If your platform is not
+                        listed here then Redeal is simply installed by adding a script as described in the other
+                        section.
+                    </p>
+                    <p>Redeal has a few different types of referral flows. All use the same script but is
+                        triggered differently. The type of flow is defined by the deal configuration but the site must
+                        be implemented to support the desired type. It is possible, but not required, to implement
+                        redeal to support all different types.
+                    </p>
+                </div>
+            </div>
+            <div class="row mt-lg-3 mb-lg-3">
+                <div class="col-lg-4 col-md-6 col-12 text-center p-lg-0">
+                    <div class="intaacbox border-right">
+                        <div class="plugin-logo-wrapper"><img
+                                src="images/instant.png" class="deal-logo">
+                        </div>
+                        <h3 class="nameofblog">Instant</h3>
+                        <div class="desk">
+                            <p>The flow is triggered after purchase on the thank you page by calling the redeal()
+                                function.
+                                The function will need order information as input. After a referral the friend is
+                                pointed
+                                back to a landing page.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 text-center p-lg-0">
+                    <div class="intaacbox border-right">
+                        <div class="plugin-logo-wrapper"><img
+                                src="images/target.png" class="deal-logo">
+                        </div>
+                        <h3 class="nameofblog">Target</h3>
+                        <div class="desk">
+                            <p>The flow is triggered on page load from a generated link pointing to a landing page with
+                                added redeal parameters.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 text-center p-lg-0">
+                    <div class="intaacbox">
+                        <div class="plugin-logo-wrapper"><img
+                                src="images/action.png" class="deal-logo">
+                        </div>
+                        <h3 class="nameofblog">Action</h3>
+                        <div class="desk">
+                            <p>The flow is triggered by calling the redeal() function at any action on a page. Use this
+                                type for customized referral setups that is not necessarily connected to a purchase
+                                flow.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-12 text-center filterselection">
+                    <form class="form-inline languagefilter">
+                        <label class="markettxt">Market :- </label>
+                        <select id="langufilter" class="event-type-select">
+                            <option value="sweden">Sweden</option>
+                            <option value="other">Global</option>
+                        </select>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div data-eventtype="sweden" class="col-lg-4 col-md-6 col-12 text-center p-lg-0 tabpadding" id="para1">
+                    <div class="plugin-box">
+                        <div class="plugin-logo-wrapper"><a href="https://jetshop.se/"><img
+                                src="images/jetshop.png" class="plugin-logo"></a>
+                        </div>
+                        <h3 class="nameofblog">Jetshop</h3>
+                        <div class="desk">
+                            <p>The Redeal solution requires one script to be included called redeal.js.</p>
+                            <p>The script should be loaded on the checkout completion when the customer visits the
+                                “thanks for your order” / “order...</p>
+                        </div>
+                        <a href="jetshop-detail.html" class="plugin-link" target="_blank">Read More</a>
+                    </div>
+                </div>
+                <div data-eventtype="sweden" class="col-lg-4 col-md-6 col-12 text-center p-lg-0 tabpadding" id="para2">
+                    <div class="plugin-box">
+                        <div class="plugin-logo-wrapper"><a href="http://www.panagora.se/en/"><img
+                                src="images/panagora.png"
+                                class="plugin-logo"></a></div>
+                        <h3 class="nameofblog">Panagora</h3>
+                        <div class="desk">
+                            <p>It is a long established fact that a reader will be distracted by the readable content of
+                                a page when looking at its layout. The point of using Lorem Ipsum is that it has a
+                                more-or-less normal distribution of letters, as opposed to using 'Content here...</p>
+                        </div>
+                        <a href="panagora-detail.html" class="plugin-link" target="_blank">Read More</a>
+                    </div>
+                </div>
+                <div data-eventtype="sweden" class="col-lg-4 col-md-6 col-12 text-center p-lg-0 tabpadding" id="para3">
+                    <div class="plugin-box">
+                        <div class="plugin-logo-wrapper"><a href="https://wikinggruppen.se/"><img
+                                src="images/Wikingruppen.png" class="plugin-logo"></a></div>
+                        <h3 class="nameofblog">Wikingruppen</h3>
+                        <div class="desk">
+                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                                piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard
+                                McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up...</p>
+                        </div>
+                        <a href="wikingruppen-detail.html" class="plugin-link" target="_blank">Read More</a>
+                    </div>
+                </div>
+                <div data-eventtype="sweden" class="col-lg-4 col-md-6 col-12 text-center p-lg-0 tabpadding" id="para5">
+                    <div class="plugin-box">
+                        <div class="plugin-logo-wrapper"><a href="https://www.carismar.com/"><img
+                                src="images/carismar.jpeg"
+                                class="plugin-logo"></a></div>
+                        <h3 class="nameofblog">Carismar</h3>
+                        <div class="desk">
+                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                                piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard
+                                McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up...</p>
+                        </div>
+                        <a href="carismar-detail.html" class="plugin-link" target="_blank">Read More</a>
+                    </div>
+                </div>
+                <div data-eventtype="sweden" class="col-lg-4 col-md-6 col-12 text-center p-lg-0 tabpadding" id="para6">
+                    <div class="plugin-box">
+                        <div class="plugin-logo-wrapper"><a href="https://www.textalk.se/"><img
+                                src="images/textalk.png"
+                                class="plugin-logo"></a></div>
+                        <h3 class="nameofblog">Texttalk</h3>
+                        <div class="desk">
+                            <p>It is a long established fact that a reader will be distracted by the readable content of
+                                a page when looking at its layout. The point of using Lorem Ipsum is that it has a
+                                more-or-less normal distribution of letters, as opposed to using 'Content here...</p>
+                        </div>
+                        <a href="texttalk-detail.html" class="plugin-link" target="_blank">Read More</a>
+                    </div>
+                </div>
+                <div data-eventtype="sweden" class="col-lg-4 col-md-6 col-12 text-center p-lg-0 tabpadding" id="para4">
+                    <div class="plugin-box">
+                        <div class="plugin-logo-wrapper"><a href="https://www.askas.se/"><img
+                                src="images/askas-logo.png"
+                                class="plugin-logo"></a></div>
+                        <h3 class="nameofblog">Askås</h3>
+                        <div class="desk">
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                suffered alteration in some form, by injected humour, or randomised words which don't
+                                look even slightly believable. If you are going to use a passage of Lorem Ipsum...</p>
+                        </div>
+                        <a href="askas-detail.html" class="plugin-link" target="_blank">Read More</a>
+                    </div>
+                </div>
+                <div data-eventtype="sweden" class="col-lg-4 col-md-6 col-12 text-center p-lg-0 tabpadding" id="para12">
+                    <div class="plugin-box">
+                        <div class="plugin-logo-wrapper"><a href="https://www.easyfy.se/"><img
+                                src="images/easyfy.png"
+                                class="plugin-logo"></a></div>
+                        <h3 class="nameofblog">Easyfy</h3>
+                        <div class="desk">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas euismod ante at sodales
+                                consequat. Donec sed tellus lacus. Maecenas eget ligula dapibus, porttitor augue auctor,
+                                fermentum mi. Maecenas luctus, erat eu pulvinar tincidunt...</p>
+                        </div>
+                        <a href="easyfy-detail.html" class="plugin-link" target="_blank">Read More</a>
+                    </div>
+                </div>
+                <div data-eventtype="other" class="col-lg-4 col-md-6 col-12 text-center p-lg-0 tabpadding" id="para7">
+                    <div class="plugin-box">
+                        <div class="plugin-logo-wrapper"><a href="https://magento.com/"><img src="images/magento.png"
+                                                                                             class=""></a></div>
+                        <h3 class="nameofblog">Magento 1.x</h3>
+                        <div class="desk mgdesk">
+                            <h5>Redeal Magento 1.x Plugin Installation Guide</h5>
+                            <p class="stepsbelow">Steps are as below.</p>
+                            <ol class="loweralpha">
+                                <li>Please Extract zip file on Magento root folder.</li>
+                            </ol>
+                        </div>
+                        <a href="magentoone-detail.html" class="plugin-link" target="_blank">Read More</a>
+                    </div>
+                </div>
+                <div data-eventtype="other" class="col-lg-4 col-md-6 col-12 text-center p-lg-0 tabpadding" id="para8">
+                    <div class="plugin-box">
+                        <div class="plugin-logo-wrapper"><a href="https://magento.com/"><img
+                                src="images/magento2.png" class=""></a></div>
+                        <h3 class="nameofblog">Magento 2.x</h3>
+                        <div class="desk mgdesk">
+                            <h5>Redeal Magento 2.x Plugin Installation Guide</h5>
+                            <p class="stepsbelow">Steps are as below.</p>
+                            <ol class="loweralpha">
+                                <li>Please Extract zip file on root folder.</li>
+                                <li>Please Check if previous version exists or not.
+                                    app->code->Redeal->Referralmarketing
+                                </li>
+                                <li>Run this Commands.</li>
+                            </ol>
+                        </div>
+                        <a href="magentotwo-detail.html" class="plugin-link" target="_blank">Read More</a>
+                    </div>
+                </div>
+                <div data-eventtype="other" class="col-lg-4 col-md-6 col-12 text-center p-lg-0 tabpadding" id="para9">
+                    <div class="plugin-box">
+                        <div class="plugin-logo-wrapper"><a href="https://woocommerce.com/"><img
+                                src="images/woocommerce.png"
+                                class="plugin-logo"></a></div>
+                        <h3 class="nameofblog">Woocommerce</h3>
+                        <div class="desk mgdesk">
+                            <h5>Redeal WooCommerce Plugin Installation Guide</h5>
+                            <p class="stepsbelow">Steps are as below.</p>
+                            <ol class="loweralpha">
+                                <li>Download plugin from this <a class="sourcelink"
+                                                                 href="http://woocommerce.redeal.se/woocommerce/custom-plugin/custom-plugin-live.zip">link</a>
+                                </li>
+                                <li>Login now from admin panel...
+                                </li>
+                            </ol>
+                        </div>
+                        <a href="woocommerce-detail.html" class="plugin-link" target="_blank">Read More</a>
+                    </div>
+                </div>
+                <div data-eventtype="other" class="col-lg-4 col-md-6 col-12 text-center p-lg-0 tabpadding" id="para10">
+                    <div class="plugin-box">
+                        <div class="plugin-logo-wrapper"><a href="https://www.google.com/analytics/tag-manager/"><img
+                                src="images/Google-Tag-Manager.png"
+                                class="plugin-logo"></a></div>
+                        <h3 class="nameofblog">Google Tag Manager</h3>
+                        <div class="desk">
+                            <p>The Redeal solution requires one script to be included called redeal.js.</p>
+                            <p>The script should be loaded on the checkout completion when the customer visits the
+                                “thanks for your order” / “order...</p>
+                        </div>
+                        <a href="googletagmanager-detail.html" class="plugin-link" target="_blank">Read More</a>
+                    </div>
+                </div>
+                <div data-eventtype="other" class="col-lg-4 col-md-6 col-12 text-center p-lg-0 tabpadding" id="para11">
+                    <div class="plugin-box">
+                        <div class="plugin-logo-wrapper"><a href="#"><img src="images/other.png"
+                                                                          class="plugin-logo"></a></div>
+                        <h3 class="nameofblog">Other</h3>
+                        <div class="desk">
+                            <p>The Redeal solution requires one script to be included called redeal.js.</p>
+                            <p>The script can be included on all pages. Minimum requirement is that it is loaded on the
+                                landing page where the...</p>
+                        </div>
+                        <a href="other-detail.html" class="plugin-link" target="_blank">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"
+                integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+                crossorigin="anonymous"></script>
+        <script src="js/style.js" type="text/javascript"></script>
+        <script src="js/jquery.dd.js" type="text/javascript"></script>
+</body>
+</html>
