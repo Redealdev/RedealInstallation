@@ -409,6 +409,9 @@ h2.installation {
     font-weight: bold;
     color: #000;
 }
+body.inastallation-Detail h2.installation {
+    font-size: 26px;
+}
 h2.installation.txt-instmain {
     font-size: 24px;
     line-height: 36px;
@@ -946,6 +949,7 @@ html.installationhtmldetail p {
     padding: 31px 28px 0;
     text-align: center;
 }
+
 .instbg{
     width: 260px;
     height: 60px;
@@ -1030,6 +1034,21 @@ html.installationhtmldetail p {
     .border-right-ins {
         border-right: none;
     }
+    .intaacbox {
+        margin: 0;
+        padding: 20px 20px 0;
+        text-align: center;
+    }
+    .intaacbox div.desk {
+        height: auto;
+    }
+
+}
+
+@media (max-width: 320px) {
+    div.desk {
+        height: 14.5em;
+    }
 }
 
 @media screen and (max-width: 768px) and (min-width: 478px) {
@@ -1068,6 +1087,10 @@ html.installationhtmldetail p {
         position: relative;
         top: 30px;
     }
+    div.desk {
+        height: 11.5em;
+    }
+
 }
 
 @media (max-width: 991px) {
