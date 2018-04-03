@@ -407,6 +407,12 @@ h2.installation {
     font-size: 24px;
     line-height: 36px;
     font-weight: bold;
+    color: #000;
+}
+h2.installation.txt-instmain {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: bold;
     color: #fff;
     text-transform: uppercase;
     position: relative;
@@ -970,6 +976,10 @@ html.installationhtmldetail p {
     border-bottom: 29px solid transparent;
 }
 
+.border-right-ins {
+    border-right: 1px solid #dee2e6;
+}
+
 
 /* Installation Page Medial CSS start*/
 
@@ -1016,6 +1026,9 @@ html.installationhtmldetail p {
     .setpos {
         position: relative;
         top: 30px;
+    }
+    .border-right-ins {
+        border-right: none;
     }
 }
 
