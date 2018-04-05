@@ -685,7 +685,16 @@ html.installationhtmldetail p {
     border-right: 1px solid #dee2e6;
 }
 
-
+.inastallation-Detail .detail-align-middle a {
+    color: #417505;
+    text-decoration: none;
+    outline: none;
+}
+.inastallation-Detail .detail-align-middle a:hover{
+    color: #417505;
+    text-decoration: none;
+    outline: none;
+}
 /* Installation Page Medial CSS start*/
 
 @media (max-width: 479px) {
