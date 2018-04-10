@@ -17,9 +17,6 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-12 alignslv">
-                    <div class="instbg">
-                        <h2 class="installation txt-instmain text-center">Installation</h2>
-                    </div>
                     <p>Redeal has one-click integration with a number of e-commerce platforms. If your platform is not
                         listed here then Redeal is simply installed by adding a script as described in the other
                         section.
@@ -28,6 +25,8 @@
                         triggered differently. The type of flow is defined by the deal configuration but the site must
                         be implemented to support the desired type. It is possible, but not required, to implement
                         redeal to support all different types.
+                    </p>
+                    <p>Note that a Redeal flow is triggered by the domain the page is loaded from. The deal config must match the domain to actrivate. This means that it is not possible to test the deal from a local development environment or from a server that is running with an IP address. If a test environment has a sub domain the configured deal will be triggered but if it is different then a test deal need to be configured separatly.                      
                     </p>
                 </div>
             </div>
@@ -76,7 +75,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-12 text-center filterselection">
                     <form class="form-inline languagefilter">
-                        <label class="markettxt">Market </label>
+                        <label class="markettxt">Country </label>
                         <select id="langufilter" class="event-type-select">
                             <option value="sweden">Sweden</option>
                             <option value="other">Global</option>
