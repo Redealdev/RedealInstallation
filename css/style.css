@@ -635,7 +635,7 @@ ol.loweralpha {
 }
 
 ul.magento2detail {
-    list-style: none;
+    list-style: disc;
 }
 
 .backhome {
@@ -695,9 +695,15 @@ html.installationhtmldetail p {
     text-decoration: none;
     outline: none;
 }
+.height-row{
+    height: 180px;
+}
 /* Installation Page Medial CSS start*/
 
 @media (max-width: 479px) {
+    .height-row {
+        height: 30px;
+    }
     .redeal-logo-wrapper {
         display: block;
         padding-left: 37px;
@@ -762,6 +768,9 @@ html.installationhtmldetail p {
 }
 
 @media screen and (max-width: 768px) and (min-width: 478px) {
+    .height-row {
+        height: 40px;
+    }
     .container-value {
         padding: 30px !important;
     }
