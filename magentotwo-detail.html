@@ -24,16 +24,16 @@
 
             <h5>Redeal Magento 2.x plugin installation</h5>
             <ol class="loweralpha">
-                <li>Download the plugin <a class="sourcelink-detail" href="https://github.com/Redealdev/RedealPlugin-Magento2/archive/Magento2-1.0.3.zip">here</a>.
+                <li>Download the plugin <a class="sourcelink-detail" href="https://github.com/Redealdev/RedealPlugin-Magento2/archive/Magento2-1.0.4.zip">here</a>.
                 </li>
                 <li>Extract zip file and rename folder name to "app"</li>
 				<li>Copy app folder and Paste it on root folder of your web server.</li>                
                 <li>Run these commands:</li>
                 <ul class="magento2detail">
-                    <li>php bin/magentosetup:upgrade</li>
+                    <li>php bin/magento setup:upgrade</li>
 					<li>php bin/magento setup:di:compile</li>					
-                    <li>php bin/magentosetup:static-content:deploy</li>
-                    <li>php bin/magentocache:flush</li>
+                    <li>php bin/magento setup:static-content:deploy</li>
+                    <li>php bin/magento cache:flush</li>
                 </ul>                
             </ol>
             <p>Try a demo <a class="sourcelink-detail" target="_blank" href="http://magento2.redeal.se/">here</a></p>
